@@ -1,0 +1,29 @@
+{
+  "name": "itpm-assignment1-playwright",
+  "version": "1.0.0",
+  "description": "Playwright automation for Singlish to Sinhala translator testing - ITPM Assignment 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://www.swifttranslator.com/"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "singlish",
+    "sinhala"
+  ],
+  "author": "IT23814288 - CHANDRASIRI S.H.U.G",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

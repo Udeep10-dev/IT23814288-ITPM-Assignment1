@@ -1,0 +1,2719 @@
+{
+  "config": {
+    "configFile": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288-ITPM-Assignment-01\\playwright.config.js",
+    "rootDir": "D:/Y3S1/ITPM(IT3040)/01/Assigement 01/IT23814288-ITPM-Assignment-01/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/Y3S1/ITPM(IT3040)/01/Assigement 01/IT23814288-ITPM-Assignment-01/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/Y3S1/ITPM(IT3040)/01/Assigement 01/IT23814288-ITPM-Assignment-01/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        {
+          "outputFolder": "playwright-report",
+          "open": "never"
+        }
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "singlish-translator.spec.js",
+      "file": "singlish-translator.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Swift Translator - Singlish to Sinhala Automation",
+          "file": "singlish-translator.spec.js",
+          "line": 122,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Pos_Fun_0001: Simple sentence conversion",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7016,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0001\n"
+                        },
+                        {
+                          "text": "NAME: Simple sentence conversion\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"mama pothak kiyavanavaa\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"මම පොතක් කියවනවා\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: මම පොතක් කියවනවා\n"
+                        },
+                        {
+                          "text": "Actual:   මම පොතක් කියවනවා\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:27:31.190Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-4c32db2f711c0eb454b0",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0002: Complex sentence with conditions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4886,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0002\n"
+                        },
+                        {
+                          "text": "NAME: Complex sentence with conditions\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"oyaa udhen gedhara enavanam, mama oyaa enakam bala...\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"ඔයා උදෙන් ගෙදර එනවනම්, මම ඔයා එනකම් බලන් ඉන්නම්\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: ඔයා උදෙන් ගෙදර එනවනම්, මම ඔයා එනකම් බලන් ඉන්නම්\n"
+                        },
+                        {
+                          "text": "Actual:   ඔයා උදෙන් ගෙදර එනවනම්, මම ඔයා එනකම් බලන් ඉන්නම්\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:27:38.551Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-d84fb3db0ca030e5c023",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0003: Command / Imperative form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4864,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0003\n"
+                        },
+                        {
+                          "text": "NAME: Command / Imperative form\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"vahaama ooka mata dhenna.\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"වහාම ඕක මට දෙන්න.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: වහාම ඕක මට දෙන්න.\n"
+                        },
+                        {
+                          "text": "Actual:   වහාම ඕක මට දෙන්න.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:27:43.456Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-5361ca44b3eb829118fd",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0004: Past tense conversation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4843,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0004\n"
+                        },
+                        {
+                          "text": "NAME: Past tense conversation\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"mama giya badhaadha thamayi gedhara avee.\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"මම ගිය බදාද තමයි ගෙදර අවේ.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: මම ගිය බදාද තමයි ගෙදර අවේ.\n"
+                        },
+                        {
+                          "text": "Actual:   මම ගිය බදාද තමයි ගෙදර අවේ.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:27:48.337Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-934201d71be2a2792629",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0005: Comman greating",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4927,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0005\n"
+                        },
+                        {
+                          "text": "NAME: Comman greating\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"aayuboovan !\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"ආයුබෝවන් !\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: ආයුබෝවන් !\n"
+                        },
+                        {
+                          "text": "Actual:   ආයුබෝවන් !\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:27:53.199Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-c7e7c706f5d6c3f993fb",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0006: Polite request with \"anee, balannako\"",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4874,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0006\n"
+                        },
+                        {
+                          "text": "NAME: Polite request with \"anee, balannako\"\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"anee, oya potha poddak balannako\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"අනේ, ඔය පොත පොඩ්ඩක් බලන්නකො\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: අනේ, ඔය පොත පොඩ්ඩක් බලන්නකො\n"
+                        },
+                        {
+                          "text": "Actual:   අනේ, ඔය පොත පොඩ්ඩක් බලන්නකො\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:27:58.154Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-874eded9c7a3aa06f08b",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0007: Future tense expression",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5138,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0007\n"
+                        },
+                        {
+                          "text": "NAME: Future tense expression\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"api labana sikuraadhaa idhala ena saeema sathi ant...\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"අපි ලබන සිකුරාදා ඉදල එන සෑම සති අන්තයකම ගෙදර යමු.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: අපි ලබන සිකුරාදා ඉදල එන සෑම සති අන්තයකම ගෙදර යමු.\n"
+                        },
+                        {
+                          "text": "Actual:   අපි ලබන සිකුරාදා ඉදල එන සෑම සති අන්තයකම ගෙදර යමු.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:28:03.042Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-68cb47edb391d5079d78",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0008: Question form conversion",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4792,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0008\n"
+                        },
+                        {
+                          "text": "NAME: Question form conversion\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"mee parigaNakaya nisi aakaarava vaeda karanavadha ...\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"මේ පරිගණකය නිසි ආකාරව වැඩ කරනවද ?\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: මේ පරිගණකය නිසි ආකාරව වැඩ කරනවද ?\n"
+                        },
+                        {
+                          "text": "Actual:   මේ පරිගණකය නිසි ආකාරව වැඩ කරනවද ?\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:28:08.195Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-0ef3be562afa3a8198ea",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0009: Compound sentence with conjunctions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6406,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0009\n"
+                        },
+                        {
+                          "text": "NAME: Compound sentence with conjunctions\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"hari mama mee potha dhennam oyaata, namuth meeka k...\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 3000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"හරි මම මේ පොත දෙන්නම් ඔයාට, නමුත් මේක කාටවත් දෙන්න...\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: හරි මම මේ පොත දෙන්නම් ඔයාට, නමුත් මේක කාටවත් දෙන්නෙ නතුව පරිස්සමට මට නැවත ගෙනල්ල දෙන්න ඔන.\n"
+                        },
+                        {
+                          "text": "Actual:   හරි මම මේ පොත දෙන්නම් ඔයාට, නමුත් මේක කාටවත් දෙන්නෙ නතුව පරිස්සමට මට නැවත ගෙනල්ල දෙන්න ඔන.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:28:13.004Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-36355dc06d766a88e772",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0010: Negative sentence form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5162,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0010\n"
+                        },
+                        {
+                          "text": "NAME: Negative sentence form\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"ammee, mata heta nam enna vena ekak naehae.\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"අම්මේ, මට හෙට නම් එන්න වෙන එකක් නැහැ.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: අම්මේ, මට හෙට නම් එන්න වෙන එකක් නැහැ.\n"
+                        },
+                        {
+                          "text": "Actual:   අම්මේ, මට හෙට නම් එන්න වෙන එකක් නැහැ.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:28:19.425Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-89de82e10aba87801d66",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0011: Informal daily expression",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5093,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0011\n"
+                        },
+                        {
+                          "text": "NAME: Informal daily expression\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"mata badaginiyi\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"මට බඩගිනියි\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: මට බඩගිනියි\n"
+                        },
+                        {
+                          "text": "Actual:   මට බඩගිනියි\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:28:24.606Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-9cb941a71cebb85d8579",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0012: Multi- word collection",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5136,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0012\n"
+                        },
+                        {
+                          "text": "NAME: Multi- word collection\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"hiru eLiya paaya aetha.\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"හිරු එළිය පාය ඇත.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: හිරු එළිය පාය ඇත.\n"
+                        },
+                        {
+                          "text": "Actual:   හිරු එළිය පාය ඇත.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:28:29.719Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-52a9219481f83a3ce896",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0013: Singular pronoun variation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5222,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0013\n"
+                        },
+                        {
+                          "text": "NAME: Singular pronoun variation\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"eyaa pansal giyaa.\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"එයා පන්සල් ගියා.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: එයා පන්සල් ගියා.\n"
+                        },
+                        {
+                          "text": "Actual:   එයා පන්සල් ගියා.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:28:34.868Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-1eccf2d40f1f2c40dd18",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0014: Plural pronoun variation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4913,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0014\n"
+                        },
+                        {
+                          "text": "NAME: Plural pronoun variation\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"eyaalaa dhaen enavadha apee gedhara.\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"එයාලා දැන් එනවද අපේ ගෙදර.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: එයාලා දැන් එනවද අපේ ගෙදර.\n"
+                        },
+                        {
+                          "text": "Actual:   එයාලා දැන් එනවද අපේ ගෙදර.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:28:40.107Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-47d709a1c2ea389366b9",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0015: English technical terms preservation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5105,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0015\n"
+                        },
+                        {
+                          "text": "NAME: English technical terms preservation\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"Whatsapp, Youtube, Facebook saha Tesla\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"Whatsapp, Youtube, Facebook සහ Tesla\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: Whatsapp, Youtube, Facebook සහ Tesla\n"
+                        },
+                        {
+                          "text": "Actual:   Whatsapp, Youtube, Facebook සහ Tesla\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:28:45.038Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-2ccad3a524da48505733",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0016: Place names in sentences + Compound sentence with conjunctions",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6049,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0016\n"
+                        },
+                        {
+                          "text": "NAME: Place names in sentences + Compound sentence with conjunctions\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"api mee paara nivaaduvata Galle paeththee ravumak ...\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 3000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"අපි මේ පාර නිවාඩුවට Galle පැත්තේ රවුමක් දාමුද හැබය...\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: අපි මේ පාර නිවාඩුවට Galle පැත්තේ රවුමක් දාමුද හැබයි Kandy ත් හොඳයි. පොඩ්ඩක් මට හරියටම බළලා කියන්න.\n"
+                        },
+                        {
+                          "text": "Actual:   අපි මේ පාර නිවාඩුවට Galle පැත්තේ රවුමක් දාමුද හැබයි Kandy ත් හොඳයි. පොඩ්ඩක් මට හරියටම බළලා කියන්න.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:28:50.160Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-a1587819af0ef3eaab9d",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0017: English abbreviations",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4872,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0017\n"
+                        },
+                        {
+                          "text": "NAME: English abbreviations\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"NIC, OTP saha QR Code\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"NIC, OTP සහ QR Code\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: NIC, OTP සහ QR Code\n"
+                        },
+                        {
+                          "text": "Actual:   NIC, OTP සහ QR Code\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:28:56.223Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-1d748d73c054d2352b7a",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0018: Currency and numbers",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4635,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0018\n"
+                        },
+                        {
+                          "text": "NAME: Currency and numbers\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"dhaen Repeat Exam Fee eka Rs.8000k venavaa.\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"දැන් Repeat Exam Fee එක Rs.8000ක් වෙනවා.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: දැන් Repeat Exam Fee එක Rs.8000ක් වෙනවා.\n"
+                        },
+                        {
+                          "text": "Actual:   දැන් Repeat Exam Fee එක Rs.8000ක් වෙනවා.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:29:01.108Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-0466c7b6a1cb48469415",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0019: Date format preservation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4977,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0019\n"
+                        },
+                        {
+                          "text": "NAME: Date format preservation\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"19/01/2026 University eka patan gannavaa.\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"19/01/2026 University එක පටන් ගන්නවා.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: 19/01/2026 University එක පටන් ගන්නවා.\n"
+                        },
+                        {
+                          "text": "Actual:   19/01/2026 University එක පටන් ගන්නවා.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:29:05.757Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-6481adcfea11a2481dba",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0020: Measurement units",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4493,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0020\n"
+                        },
+                        {
+                          "text": "NAME: Measurement units\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"oyaa enakota parippu 1kg k  saha polthel 500ml gee...\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"ඔයා එනකොට පරිප්පු 1kg ක්  සහ පොල්තෙල් 500ml ගේන්න.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: ඔයා එනකොට පරිප්පු 1kg ක්  සහ පොල්තෙල් 500ml ගේන්න.\n"
+                        },
+                        {
+                          "text": "Actual:   ඔයා එනකොට පරිප්පු 1kg ක්  සහ පොල්තෙල් 500ml ගේන්න.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:29:10.748Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-fc75ae347fe221d9fb94",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0021: Repeated word emphasis",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5059,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0021\n"
+                        },
+                        {
+                          "text": "NAME: Repeated word emphasis\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"hari hari mama mee ena gaman innee.\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"හරි හරි මම මේ එන ගමන් ඉන්නේ.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: හරි හරි මම මේ එන ගමන් ඉන්නේ.\n"
+                        },
+                        {
+                          "text": "Actual:   හරි හරි මම මේ එන ගමන් ඉන්නේ.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:29:15.257Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-0cd5f5cb7be28d6673a1",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0022: Mixed language sentence (Singlish + English)",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 8089,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0022\n"
+                        },
+                        {
+                          "text": "NAME: Mixed language sentence (Singlish + English)\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"mee mama adha raeeta project proposal eka gaena po...\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 5000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"මේ මම අද රෑට project proposal එක ගැන පොඩ්ඩක් කතා ක...\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: මේ මම අද රෑට project proposal එක ගැන පොඩ්ඩක් කතා කරගන්න ඕන නිසා පොඩි meeting එකක් arrange කරා. 7.00 pm වලට කරන්න තමයි දැනට plan එක තියෙන්නෙ. MS terms වලින් තමයි කරන්නේ. කට්ටිය හමෝම අනිවාර්යෙන් එන්න ඔනේ. මම meeting link එක් තව ටිකකින් group එකට send කරන්නම්.\n"
+                        },
+                        {
+                          "text": "Actual:   මේ මම අද රෑට project proposal එක ගැන පොඩ්ඩක් කතා කරගන්න ඕන නිසා පොඩි meeting එකක් arrange කරා. 7.00 pm වලට කරන්න තමයි දැනට plan එක තියෙන්නෙ. MS terms වලින් තමයි කරන්නේ. කට්ටිය හමෝම අනිවාර්යෙන් එන්න ඔනේ. මම meeting link එක් තව ටිකකින් group එකට send කරන්නම්.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:29:20.331Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-30a8278fee3875d1e28a",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0023: Proper spacing validation + singlish",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4876,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0023\n"
+                        },
+                        {
+                          "text": "NAME: Proper spacing validation + singlish\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"api campus yanavaa. heta call ekak gannam.\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"අපි campus යනවා. හෙට call එකක් ගන්නම්.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: අපි campus යනවා. හෙට call එකක් ගන්නම්.\n"
+                        },
+                        {
+                          "text": "Actual:   අපි campus යනවා. හෙට call එකක් ගන්නම්.\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:29:28.433Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-2975f9fd8b248184565a",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Fun_0024: Complex punctuation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6827,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Fun_0024\n"
+                        },
+                        {
+                          "text": "NAME: Complex punctuation\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"colombo university (eya 1920 dhii pihituvana ladhd...\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 3000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"colombo university (එය 1920 දී පිහිටුවන ලද්දකි ; ශ...\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: colombo university (එය 1920 දී පිහිටුවන ලද්දකි ; ශ්‍රී ලන්කාවේ පැරණිතම  විශ්වවිද්යාලයකි.)\n"
+                        },
+                        {
+                          "text": "Actual:   colombo university (එය 1920 දී පිහිටුවන ලද්දකි ; ශ්‍රී ලන්කාවේ පැරණිතම  විශ්වවිද්යාලයකි.)\n"
+                        },
+                        {
+                          "text": "✓ OUTPUT MATCHES - TEST PASSED\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:29:33.322Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-01de57a8d905bc747738",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0001: Date format corruption",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5174,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Neg_Fun_0001\n"
+                        },
+                        {
+                          "text": "NAME: Date format corruption\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"\"2026-02-01\"\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"\"2026-02-01\"\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: \"2026-02-01\"\n"
+                        },
+                        {
+                          "text": "Actual:   \"2026-02-01\"\n"
+                        },
+                        {
+                          "text": "ℹNegative test - documenting actual behavior\n"
+                        },
+                        {
+                          "text": "   System behavior: \"2026-02-01\"\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:29:40.164Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-496b2870c74653608da7",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0002: Extreme repeating character pattern causing processing failure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 7958,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Neg_Fun_0002\n"
+                        },
+                        {
+                          "text": "NAME: Extreme repeating character pattern causing processing failure\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 5000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: 3,000 'අ' characters\n"
+                        },
+                        {
+                          "text": "Actual:   \n"
+                        },
+                        {
+                          "text": "ℹNegative test - documenting actual behavior\n"
+                        },
+                        {
+                          "text": "   System behavior: (empty/no output)\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:29:45.349Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-4105d2bceec54445b09b",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0003: Excessive whitespace preservation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5236,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Neg_Fun_0003\n"
+                        },
+                        {
+                          "text": "NAME: Excessive whitespace preservation\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"ammee, mama                                       ...\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"අම්මේ, මම                                         ...\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: අම්මේ, මම හෙට ගෙදර එනවා.\n"
+                        },
+                        {
+                          "text": "Actual:   අම්මේ, මම                                          හෙට ගෙදර එනවා.\n"
+                        },
+                        {
+                          "text": "ℹNegative test - documenting actual behavior\n"
+                        },
+                        {
+                          "text": "   System behavior: අම්මේ, මම                                          හෙට ගෙදර එනවා.\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:29:53.327Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-287a23303ee91ce56137",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0004: Non-standard slang characters",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5513,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Neg_Fun_0004\n"
+                        },
+                        {
+                          "text": "NAME: Non-standard slang characters\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"adooooo machan! supiriiiiiiii A!!!!!!\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"අඩෝඕඔ මචන්! සුපිරීඊඊඊ A!!!!!!\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: අඩෝ මචන්! සුපිරී ආ…\n"
+                        },
+                        {
+                          "text": "Actual:   අඩෝඕඔ මචන්! සුපිරීඊඊඊ A!!!!!!\n"
+                        },
+                        {
+                          "text": "ℹNegative test - documenting actual behavior\n"
+                        },
+                        {
+                          "text": "   System behavior: අඩෝඕඔ මචන්! සුපිරීඊඊඊ A!!!!!!\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:29:58.578Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-4f14d4b298f21436b1c9",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0005: Stress test: Missing spaces + Non-standard slang characters",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 10249,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Neg_Fun_0005\n"
+                        },
+                        {
+                          "text": "NAME: Stress test: Missing spaces + Non-standard slang characters\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"hetaenavadha ITPM lec ekata\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"හෙටැනවද ITPM ලෙc එකට\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: හෙට එනවද ITPM lec එකට\n"
+                        },
+                        {
+                          "text": "Actual:   හෙටැනවද ITPM ලෙc එකට\n"
+                        },
+                        {
+                          "text": "ℹNegative test - documenting actual behavior\n"
+                        },
+                        {
+                          "text": "   System behavior: හෙටැනවද ITPM ලෙc එකට\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:30:04.105Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-67133eccb418caf5e5ab",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0006: Handling invalid phonetic typos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 6746,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Neg_Fun_0006\n"
+                        },
+                        {
+                          "text": "NAME: Handling invalid phonetic typos\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"mamma gedharra\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"mamma ගෙදර්‍ර\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: මම ගෙදර\n"
+                        },
+                        {
+                          "text": "Actual:   mamma ගෙදර්‍ර\n"
+                        },
+                        {
+                          "text": "ℹNegative test - documenting actual behavior\n"
+                        },
+                        {
+                          "text": "   System behavior: mamma ගෙදර්‍ර\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:30:14.364Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-bebd588c3867f42ec390",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0007: English abbreviation phoneticizing",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5347,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Neg_Fun_0007\n"
+                        },
+                        {
+                          "text": "NAME: English abbreviation phoneticizing\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"nic eka student id ek oona kivvaa.\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"නිc එක student ඉඩ් එක් ඕන කිව්වා.\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: nic එක student id එක් ඕන කිව්වා.\n"
+                        },
+                        {
+                          "text": "Actual:   නිc එක student ඉඩ් එක් ඕන කිව්වා.\n"
+                        },
+                        {
+                          "text": "ℹNegative test - documenting actual behavior\n"
+                        },
+                        {
+                          "text": "   System behavior: නිc එක student ඉඩ් එක් ඕන කිව්වා.\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:30:21.124Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-846545c6f491ff13aa9c",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0008: Mathematical Expression Failure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5329,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Neg_Fun_0008\n"
+                        },
+                        {
+                          "text": "NAME: Mathematical Expression Failure\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"sin(x)+ sin(y) = 15,  y >= 10\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"සින්(x)+ සින්(ය්) = 15,  ය් >= 10\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: sin(x)+ sin(y) = 15,  y >= 10\n"
+                        },
+                        {
+                          "text": "Actual:   සින්(x)+ සින්(ය්) = 15,  ය් >= 10\n"
+                        },
+                        {
+                          "text": "ℹNegative test - documenting actual behavior\n"
+                        },
+                        {
+                          "text": "   System behavior: සින්(x)+ සින්(ය්) = 15,  ය් >= 10\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:30:26.487Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-52931d5e2f38005c56fe",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0009: URL/Email Corruption",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4882,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Neg_Fun_0009\n"
+                        },
+                        {
+                          "text": "NAME: URL/Email Corruption\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"https://courseweb.sliit.lk '\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"හ්ට්ට්ප්ස්://cඔඋර්සෙwඑබ්.ස්ලීට්.ල්ක් '\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: https://courseweb.sliit.lk '\n"
+                        },
+                        {
+                          "text": "Actual:   හ්ට්ට්ප්ස්://cඔඋර්සෙwඑබ්.ස්ලීට්.ල්ක් '\n"
+                        },
+                        {
+                          "text": "ℹNegative test - documenting actual behavior\n"
+                        },
+                        {
+                          "text": "   System behavior: හ්ට්ට්ප්ස්://cඔඋර්සෙwඑබ්.ස්ලීට්.ල්ක් '\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:30:31.831Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-e951ff0e50671eaa0ff6",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Neg_Fun_0010: Hashtag and Social Media Format + Special Character Keyboard Shortcuts",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5347,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Neg_Fun_0010\n"
+                        },
+                        {
+                          "text": "NAME: Hashtag and Social Media Format + Special Character Keyboard Shortcuts\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"Ctrl+C, Ctrl+X, #sliit, @SLIITofficial, #real\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"Cට්‍රල්+C, Cට්‍රල්+X, #ස්ලීට්, @ස්ළීඨොෆ්ෆිcඉඅල්, #...\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: Ctrl+C, Ctrl+X, #sliit, @SLIITofficial, #real\n"
+                        },
+                        {
+                          "text": "Actual:   Cට්‍රල්+C, Cට්‍රල්+X, #ස්ලීට්, @ස්ළීඨොෆ්ෆිcඉඅල්, #රේල්\n"
+                        },
+                        {
+                          "text": "ℹNegative test - documenting actual behavior\n"
+                        },
+                        {
+                          "text": "   System behavior: Cට්‍රල්+C, Cට්‍රල්+X, #ස්ලීට්, @ස්ළීඨොෆ්ෆිcඉඅල්, #රේල්\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:30:36.727Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-6d138a8d73886e3bf5d7",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            },
+            {
+              "title": "Pos_Ui_0001: Real-time output update",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 5045,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "\n======================================================================\n"
+                        },
+                        {
+                          "text": "TEST: Pos_Ui_0001\n"
+                        },
+                        {
+                          "text": "NAME: Real-time output update\n"
+                        },
+                        {
+                          "text": "======================================================================\n"
+                        },
+                        {
+                          "text": "✓ Cleared input field\n"
+                        },
+                        {
+                          "text": "✓ Entered input: \"Adha DS practical Lab session ekedhi apita submiss...\"\n"
+                        },
+                        {
+                          "text": "✓ Waited 2000ms for translation\n"
+                        },
+                        {
+                          "text": "✓ Got output: \"අද DS practical Lab session එකෙදි අපිට submission ...\"\n"
+                        },
+                        {
+                          "text": "\nCOMPARISON:\n"
+                        },
+                        {
+                          "text": "Expected: අද DS practical Lab session එකෙදි අපිට submission එකක් තිබුනා.\n"
+                        },
+                        {
+                          "text": "Actual:   අද DS practical Lab session එකෙදි අපිට submission එකක් තිබුනා.\n"
+                        },
+                        {
+                          "text": "ℹNegative test - documenting actual behavior\n"
+                        },
+                        {
+                          "text": "   System behavior: අද DS practical Lab session එකෙදි අපිට submission එකක් තිබුනා.\n"
+                        },
+                        {
+                          "text": "======================================================================\n\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-30T02:30:42.087Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3126a05e19414a51fad5-7153e8d0591ffc73c1fe",
+              "file": "singlish-translator.spec.js",
+              "line": 161,
+              "column": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-30T02:27:29.083Z",
+    "duration": 198438.066,
+    "expected": 35,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
