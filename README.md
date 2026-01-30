@@ -45,7 +45,7 @@ The main objectives of this automation project are to:
 ## 🏗️ Project Structure
 
 ```
-IT23814288-ITPM-Assignment1/
+IT23814288-ITPM(IT3040)/
 ├── tests/                              # Test files directory
 │   ├── singlish-translator.spec.js     # Main test automation file (35 tests)
 │   └── test-data-reader.js             # Utility to read Excel test data
@@ -103,7 +103,7 @@ Before running this project, ensure you have the following installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/IT23814288-ITPM-Assignment1.git
+git clone https://github.com/Udeep10-dev/IT23814288-ITPM-Assignment1.git
 cd IT23814288-ITPM-Assignment1
 ```
 
