@@ -4,7 +4,7 @@
 
 
 const { test, expect } = require('@playwright/test');
-const { readTestCases } = require('./test-data-reader');
+const { readTestCases } = require('./excel_sheat_reader');
 const path = require('path');
 const fs = require('fs');
 
