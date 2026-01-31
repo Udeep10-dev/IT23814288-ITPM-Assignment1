@@ -47,8 +47,8 @@ The main objectives of this automation project are to:
 ```
 IT23814288-ITPM(IT3040)/
 ├── tests/                              # Test files directory
-│   ├── singlish-translator.spec.js     # Main test automation file (35 tests)
-│   └── test-data-reader.js             # Utility to read Excel test data
+│   ├── main(singlish_translator).js     # Main test automation file (35 tests)
+│   └── excel_sheat_reader.js             # Utility to read Excel test data
 │
 ├── test-data/                          # Test data directory
 │   └── IT23814288.xlsx                 # Test cases with inputs & expected outputs
