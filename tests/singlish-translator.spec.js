@@ -1,6 +1,4 @@
-
-
- //ITPM Assignment 1 - IT23814288
+//ITPM Assignment 1 - IT23814288
  
 
 
@@ -69,12 +67,12 @@ async function enterInput(page, text) {
  * Waits for translation to complete (based on input length)
  */
 async function waitForTranslation(inputLength) {
-  let waitTime = 2000; // Default 2 seconds
+  let waitTime = 4000; // Default 2 seconds
   
   if (inputLength > 300) {
-    waitTime = 5000; // Long input: 5 seconds
+    waitTime = 7000; // Long input: 5 seconds
   } else if (inputLength > 100) {
-    waitTime = 3000; // Medium input: 3 seconds
+    waitTime = 5000; // Medium input: 3 seconds
   } else if (inputLength === 0) {
     waitTime = 1000; // Empty input: 1 second
   }
@@ -150,10 +148,12 @@ test.describe('Swift Translator - Singlish to Sinhala Automation', () => {
     const testName = testCase['Test case name'];
     const inputText = testCase['Input'] || '';
     const expectedOutput = testCase['Expected output'] || '';
+    const status = testCase['Status'] ? testCase['Status'].toLowerCase().trim() : '';
     const inputLength = inputText.length;
     
     // Determine test type from TC ID
     const isPositive = tcId.startsWith('Pos');
+    const isNegative = tcId.startsWith('Neg');
     const isFunctional = tcId.includes('Fun');
     const isUI = tcId.includes('UI');
     
@@ -165,34 +165,35 @@ test.describe('Swift Translator - Singlish to Sinhala Automation', () => {
       console.log('='.repeat(70));
       
       try {
-        // Step 1: Clear any existing input
+        //  Clear any existing input
         await clearInput(page);
         console.log('✓ Cleared input field');
         
-        // Step 2: Enter the Singlish input
+        //  Enter the Singlish input
         if (inputText) {
           await enterInput(page, inputText);
           console.log(`✓ Entered input: "${inputText.substring(0, 50)}${inputText.length > 50 ? '...' : ''}"`);
         } else {
-          console.log(' Empty input (testing edge case)');
+          console.log('ℹ Empty input (testing edge case)');
         }
         
-        // Step 3: Wait for translation (real-time translation)
+        //  Wait for translation (real-time translation)
         const waitTime = await waitForTranslation(inputLength);
         await page.waitForTimeout(waitTime);
         console.log(`✓ Waited ${waitTime}ms for translation`);
         
-        // Step 4: Get the actual output
+        //  Get the actual output
         const actualOutput = await getOutput(page);
         console.log(`✓ Got output: "${actualOutput.substring(0, 50)}${actualOutput.length > 50 ? '...' : ''}"`);
         
-        // Step 5: Log comparison
+        //Step 5: Log comparison
         console.log('\nCOMPARISON:');
         console.log(`Expected: ${expectedOutput}`);
         console.log(`Actual:   ${actualOutput}`);
         
-        // Step 6: Verify results (for positive functional tests)
+        //  Verify results based on test type
         if (isPositive && isFunctional) {
+          // POSITIVE FUNCTIONAL TESTS - Should match expected output
           const matches = compareSinhala(actualOutput, expectedOutput);
           
           if (matches) {
@@ -214,29 +215,58 @@ test.describe('Swift Translator - Singlish to Sinhala Automation', () => {
               path: screenshotPath,
               fullPage: true 
             });
-            console.log(`Screenshot saved: ${screenshotPath}`);
+            console.log(` Screenshot saved: ${screenshotPath}`);
           }
           
           // Assert (this will mark test as pass/fail in Playwright)
           expect(actualOutput).toBe(expectedOutput);
           
         } else if (isPositive && isUI) {
-          // UI tests - verify output appears in real-time
-          console.log('UI Test - Verifying real-time behavior');
+          // POSITIVE UI TESTS - Verify real-time behavior works
+          console.log(' UI Test - Verifying real-time behavior');
           
           // Check that output exists (translation happened)
           if (inputText) {
             expect(actualOutput.length).toBeGreaterThan(0);
-            console.log('✓ Real-time translation working - output appeared');
+            console.log(' Real-time translation working - output appeared');
           } else {
-            console.log('Empty input - output behavior documented');
+            console.log(' Empty input - output behavior documented');
           }
           
-        } else {
-          // Negative tests - just document the behavior
-          console.log('ℹNegative test - documenting actual behavior');
+        } else if (isNegative && isFunctional) {
+          // NEGATIVE FUNCTIONAL TESTS - These should FAIL in Playwright
+          // because they document system failures
+          console.log(' Negative test - documenting system failure');
+          console.log(`   System produced incorrect output: "${actualOutput.substring(0, 50)}${actualOutput.length > 50 ? '...' : ''}"`);
+          console.log(`   Expected (correct) output would be: "${expectedOutput.substring(0, 50)}${expectedOutput.length > 50 ? '...' : ''}"`);
+          
+          // Take screenshot showing the failure
+          const screenshotDir = 'test-results/screenshots';
+          if (!fs.existsSync(screenshotDir)) {
+            fs.mkdirSync(screenshotDir, { recursive: true });
+          }
+          
+          const screenshotPath = `${screenshotDir}/${tcId}_system_failure.png`;
+          await page.screenshot({ 
+            path: screenshotPath,
+            fullPage: true 
+          });
+          console.log(` Screenshot saved: ${screenshotPath}`);
+          
+          
+          expect(actualOutput).toBe(expectedOutput);
+          
+        } else if (isNegative && isUI) {
+          // NEGATIVE UI TESTS - Document problematic UI behavior
+          console.log(' Negative UI test - documenting problematic behavior');
           console.log(`   System behavior: ${actualOutput || '(empty/no output)'}`);
           
+          
+          
+        } else {
+          // Fallback for any other test types
+          console.log('ℹ Other test type - documenting behavior');
+          console.log(`   System behavior: ${actualOutput || '(empty/no output)'}`);
         }
         
       } catch (error) {
@@ -254,7 +284,7 @@ test.describe('Swift Translator - Singlish to Sinhala Automation', () => {
             path: screenshotPath,
             fullPage: true 
           });
-          console.log(`Screenshot saved: ${screenshotPath}`);
+          console.log(` Screenshot saved: ${screenshotPath}`);
         } catch (screenshotError) {
           console.log('Could not save screenshot:', screenshotError.message);
         }

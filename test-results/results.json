@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288-ITPM-Assignment-01\\playwright.config.js",
-    "rootDir": "D:/Y3S1/ITPM(IT3040)/01/Assigement 01/IT23814288-ITPM-Assignment-01/tests",
+    "configFile": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\playwright.config.js",
+    "rootDir": "D:/Y3S1/ITPM(IT3040)/01/Assigement 01/IT23814288/IT23814288-ITPM(IT3040)/tests",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -16,7 +16,7 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "D:/Y3S1/ITPM(IT3040)/01/Assigement 01/IT23814288-ITPM-Assignment-01/test-results",
+        "outputDir": "D:/Y3S1/ITPM(IT3040)/01/Assigement 01/IT23814288/IT23814288-ITPM(IT3040)/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
@@ -24,7 +24,7 @@
         },
         "id": "chromium",
         "name": "chromium",
-        "testDir": "D:/Y3S1/ITPM(IT3040)/01/Assigement 01/IT23814288-ITPM-Assignment-01/tests",
+        "testDir": "D:/Y3S1/ITPM(IT3040)/01/Assigement 01/IT23814288/IT23814288-ITPM(IT3040)/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -76,7 +76,7 @@
         {
           "title": "Swift Translator - Singlish to Sinhala Automation",
           "file": "singlish-translator.spec.js",
-          "line": 122,
+          "line": 120,
           "column": 6,
           "specs": [
             {
@@ -95,7 +95,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 7016,
+                      "duration": 6990,
                       "errors": [],
                       "stdout": [
                         {
@@ -117,7 +117,7 @@
                           "text": "✓ Entered input: \"mama pothak kiyavanavaa\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"මම පොතක් කියවනවා\"\n"
@@ -140,7 +140,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:27:31.190Z",
+                      "startTime": "2026-01-31T11:33:54.249Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -169,7 +169,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4886,
+                      "duration": 6817,
                       "errors": [],
                       "stdout": [
                         {
@@ -191,7 +191,7 @@
                           "text": "✓ Entered input: \"oyaa udhen gedhara enavanam, mama oyaa enakam bala...\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"ඔයා උදෙන් ගෙදර එනවනම්, මම ඔයා එනකම් බලන් ඉන්නම්\"\n"
@@ -214,7 +214,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:27:38.551Z",
+                      "startTime": "2026-01-31T11:34:01.559Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -243,7 +243,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4864,
+                      "duration": 6892,
                       "errors": [],
                       "stdout": [
                         {
@@ -265,7 +265,7 @@
                           "text": "✓ Entered input: \"vahaama ooka mata dhenna.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"වහාම ඕක මට දෙන්න.\"\n"
@@ -288,7 +288,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:27:43.456Z",
+                      "startTime": "2026-01-31T11:34:08.402Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -317,7 +317,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4843,
+                      "duration": 6774,
                       "errors": [],
                       "stdout": [
                         {
@@ -339,7 +339,7 @@
                           "text": "✓ Entered input: \"mama giya badhaadha thamayi gedhara avee.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"මම ගිය බදාද තමයි ගෙදර අවේ.\"\n"
@@ -362,7 +362,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:27:48.337Z",
+                      "startTime": "2026-01-31T11:34:15.332Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -391,7 +391,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4927,
+                      "duration": 6823,
                       "errors": [],
                       "stdout": [
                         {
@@ -413,7 +413,7 @@
                           "text": "✓ Entered input: \"aayuboovan !\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"ආයුබෝවන් !\"\n"
@@ -436,7 +436,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:27:53.199Z",
+                      "startTime": "2026-01-31T11:34:22.136Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -465,7 +465,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4874,
+                      "duration": 6607,
                       "errors": [],
                       "stdout": [
                         {
@@ -487,7 +487,7 @@
                           "text": "✓ Entered input: \"anee, oya potha poddak balannako\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"අනේ, ඔය පොත පොඩ්ඩක් බලන්නකො\"\n"
@@ -510,7 +510,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:27:58.154Z",
+                      "startTime": "2026-01-31T11:34:28.995Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -539,7 +539,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5138,
+                      "duration": 6543,
                       "errors": [],
                       "stdout": [
                         {
@@ -561,7 +561,7 @@
                           "text": "✓ Entered input: \"api labana sikuraadhaa idhala ena saeema sathi ant...\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"අපි ලබන සිකුරාදා ඉදල එන සෑම සති අන්තයකම ගෙදර යමු.\"\n"
@@ -584,7 +584,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:28:03.042Z",
+                      "startTime": "2026-01-31T11:34:35.633Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -613,7 +613,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4792,
+                      "duration": 6693,
                       "errors": [],
                       "stdout": [
                         {
@@ -635,7 +635,7 @@
                           "text": "✓ Entered input: \"mee parigaNakaya nisi aakaarava vaeda karanavadha ...\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"මේ පරිගණකය නිසි ආකාරව වැඩ කරනවද ?\"\n"
@@ -658,7 +658,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:28:08.195Z",
+                      "startTime": "2026-01-31T11:34:42.201Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -687,7 +687,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6406,
+                      "duration": 7644,
                       "errors": [],
                       "stdout": [
                         {
@@ -709,7 +709,7 @@
                           "text": "✓ Entered input: \"hari mama mee potha dhennam oyaata, namuth meeka k...\"\n"
                         },
                         {
-                          "text": "✓ Waited 3000ms for translation\n"
+                          "text": "✓ Waited 5000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"හරි මම මේ පොත දෙන්නම් ඔයාට, නමුත් මේක කාටවත් දෙන්න...\"\n"
@@ -732,7 +732,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:28:13.004Z",
+                      "startTime": "2026-01-31T11:34:48.934Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -761,7 +761,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5162,
+                      "duration": 6702,
                       "errors": [],
                       "stdout": [
                         {
@@ -783,7 +783,7 @@
                           "text": "✓ Entered input: \"ammee, mata heta nam enna vena ekak naehae.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"අම්මේ, මට හෙට නම් එන්න වෙන එකක් නැහැ.\"\n"
@@ -806,7 +806,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:28:19.425Z",
+                      "startTime": "2026-01-31T11:34:56.628Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -835,7 +835,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5093,
+                      "duration": 6556,
                       "errors": [],
                       "stdout": [
                         {
@@ -857,7 +857,7 @@
                           "text": "✓ Entered input: \"mata badaginiyi\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"මට බඩගිනියි\"\n"
@@ -880,7 +880,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:28:24.606Z",
+                      "startTime": "2026-01-31T11:35:03.359Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -909,7 +909,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5136,
+                      "duration": 6809,
                       "errors": [],
                       "stdout": [
                         {
@@ -931,7 +931,7 @@
                           "text": "✓ Entered input: \"hiru eLiya paaya aetha.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"හිරු එළිය පාය ඇත.\"\n"
@@ -954,7 +954,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:28:29.719Z",
+                      "startTime": "2026-01-31T11:35:09.933Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -983,7 +983,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5222,
+                      "duration": 6549,
                       "errors": [],
                       "stdout": [
                         {
@@ -1005,7 +1005,7 @@
                           "text": "✓ Entered input: \"eyaa pansal giyaa.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"එයා පන්සල් ගියා.\"\n"
@@ -1028,7 +1028,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:28:34.868Z",
+                      "startTime": "2026-01-31T11:35:16.768Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1057,7 +1057,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4913,
+                      "duration": 6786,
                       "errors": [],
                       "stdout": [
                         {
@@ -1079,7 +1079,7 @@
                           "text": "✓ Entered input: \"eyaalaa dhaen enavadha apee gedhara.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"එයාලා දැන් එනවද අපේ ගෙදර.\"\n"
@@ -1102,7 +1102,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:28:40.107Z",
+                      "startTime": "2026-01-31T11:35:23.346Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1131,7 +1131,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5105,
+                      "duration": 6654,
                       "errors": [],
                       "stdout": [
                         {
@@ -1153,7 +1153,7 @@
                           "text": "✓ Entered input: \"Whatsapp, Youtube, Facebook saha Tesla\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"Whatsapp, Youtube, Facebook සහ Tesla\"\n"
@@ -1176,7 +1176,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:28:45.038Z",
+                      "startTime": "2026-01-31T11:35:30.187Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1205,7 +1205,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6049,
+                      "duration": 7777,
                       "errors": [],
                       "stdout": [
                         {
@@ -1227,7 +1227,7 @@
                           "text": "✓ Entered input: \"api mee paara nivaaduvata Galle paeththee ravumak ...\"\n"
                         },
                         {
-                          "text": "✓ Waited 3000ms for translation\n"
+                          "text": "✓ Waited 5000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"අපි මේ පාර නිවාඩුවට Galle පැත්තේ රවුමක් දාමුද හැබය...\"\n"
@@ -1250,7 +1250,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:28:50.160Z",
+                      "startTime": "2026-01-31T11:35:36.867Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1279,7 +1279,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4872,
+                      "duration": 6710,
                       "errors": [],
                       "stdout": [
                         {
@@ -1301,7 +1301,7 @@
                           "text": "✓ Entered input: \"NIC, OTP saha QR Code\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"NIC, OTP සහ QR Code\"\n"
@@ -1324,7 +1324,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:28:56.223Z",
+                      "startTime": "2026-01-31T11:35:44.674Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1353,7 +1353,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4635,
+                      "duration": 6843,
                       "errors": [],
                       "stdout": [
                         {
@@ -1375,7 +1375,7 @@
                           "text": "✓ Entered input: \"dhaen Repeat Exam Fee eka Rs.8000k venavaa.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"දැන් Repeat Exam Fee එක Rs.8000ක් වෙනවා.\"\n"
@@ -1398,7 +1398,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:29:01.108Z",
+                      "startTime": "2026-01-31T11:35:51.405Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1427,7 +1427,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4977,
+                      "duration": 6735,
                       "errors": [],
                       "stdout": [
                         {
@@ -1449,7 +1449,7 @@
                           "text": "✓ Entered input: \"19/01/2026 University eka patan gannavaa.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"19/01/2026 University එක පටන් ගන්නවා.\"\n"
@@ -1472,7 +1472,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:29:05.757Z",
+                      "startTime": "2026-01-31T11:35:58.283Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1501,7 +1501,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4493,
+                      "duration": 6785,
                       "errors": [],
                       "stdout": [
                         {
@@ -1523,7 +1523,7 @@
                           "text": "✓ Entered input: \"oyaa enakota parippu 1kg k  saha polthel 500ml gee...\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"ඔයා එනකොට පරිප්පු 1kg ක්  සහ පොල්තෙල් 500ml ගේන්න.\"\n"
@@ -1546,7 +1546,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:29:10.748Z",
+                      "startTime": "2026-01-31T11:36:05.042Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1575,7 +1575,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5059,
+                      "duration": 6746,
                       "errors": [],
                       "stdout": [
                         {
@@ -1597,7 +1597,7 @@
                           "text": "✓ Entered input: \"hari hari mama mee ena gaman innee.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"හරි හරි මම මේ එන ගමන් ඉන්නේ.\"\n"
@@ -1620,7 +1620,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:29:15.257Z",
+                      "startTime": "2026-01-31T11:36:11.846Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1649,7 +1649,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 8089,
+                      "duration": 9832,
                       "errors": [],
                       "stdout": [
                         {
@@ -1671,7 +1671,7 @@
                           "text": "✓ Entered input: \"mee mama adha raeeta project proposal eka gaena po...\"\n"
                         },
                         {
-                          "text": "✓ Waited 5000ms for translation\n"
+                          "text": "✓ Waited 7000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"මේ මම අද රෑට project proposal එක ගැන පොඩ්ඩක් කතා ක...\"\n"
@@ -1694,7 +1694,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:29:20.331Z",
+                      "startTime": "2026-01-31T11:36:18.627Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1723,7 +1723,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 4876,
+                      "duration": 6851,
                       "errors": [],
                       "stdout": [
                         {
@@ -1745,7 +1745,7 @@
                           "text": "✓ Entered input: \"api campus yanavaa. heta call ekak gannam.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"අපි campus යනවා. හෙට call එකක් ගන්නම්.\"\n"
@@ -1768,7 +1768,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:29:28.433Z",
+                      "startTime": "2026-01-31T11:36:28.491Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1797,7 +1797,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 6827,
+                      "duration": 7694,
                       "errors": [],
                       "stdout": [
                         {
@@ -1819,7 +1819,7 @@
                           "text": "✓ Entered input: \"colombo university (eya 1920 dhii pihituvana ladhd...\"\n"
                         },
                         {
-                          "text": "✓ Waited 3000ms for translation\n"
+                          "text": "✓ Waited 5000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"colombo university (එය 1920 දී පිහිටුවන ලද්දකි ; ශ...\"\n"
@@ -1842,7 +1842,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:29:33.322Z",
+                      "startTime": "2026-01-31T11:36:35.359Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -1856,8 +1856,8 @@
               "column": 5
             },
             {
-              "title": "Neg_Fun_0001: Date format corruption",
-              "ok": true,
+              "title": "Neg_Fun_0001: Ambiguous word with multiple meanings fails context detection",
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -1870,9 +1870,28 @@
                     {
                       "workerIndex": 0,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 5174,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 6926,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට ඔය \u001b[7mඅඹ\u001b[27m ගෙඩිය දෙන්න.\"\u001b[39m\nReceived: \u001b[31m\"මට ඔය \u001b[7maba\u001b[27m ගෙඩිය දෙන්න.\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට ඔය \u001b[7mඅඹ\u001b[27m ගෙඩිය දෙන්න.\"\u001b[39m\nReceived: \u001b[31m\"මට ඔය \u001b[7maba\u001b[27m ගෙඩිය දෙන්න.\"\u001b[39m\n    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32",
+                        "location": {
+                          "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                          "column": 32,
+                          "line": 257
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                            "column": 32,
+                            "line": 257
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට ඔය \u001b[7mඅඹ\u001b[27m ගෙඩිය දෙන්න.\"\u001b[39m\nReceived: \u001b[31m\"මට ඔය \u001b[7maba\u001b[27m ගෙඩිය දෙන්න.\"\u001b[39m\n\n\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n======================================================================\n"
@@ -1881,7 +1900,7 @@
                           "text": "TEST: Neg_Fun_0001\n"
                         },
                         {
-                          "text": "NAME: Date format corruption\n"
+                          "text": "NAME: Ambiguous word with multiple meanings fails context detection\n"
                         },
                         {
                           "text": "======================================================================\n"
@@ -1890,51 +1909,82 @@
                           "text": "✓ Cleared input field\n"
                         },
                         {
-                          "text": "✓ Entered input: \"\"2026-02-01\"\"\n"
+                          "text": "✓ Entered input: \"mata oya aba gediya dhenna.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
-                          "text": "✓ Got output: \"\"2026-02-01\"\"\n"
+                          "text": "✓ Got output: \"මට ඔය aba ගෙඩිය දෙන්න.\"\n"
                         },
                         {
                           "text": "\nCOMPARISON:\n"
                         },
                         {
-                          "text": "Expected: \"2026-02-01\"\n"
+                          "text": "Expected: මට ඔය අඹ ගෙඩිය දෙන්න.\n"
                         },
                         {
-                          "text": "Actual:   \"2026-02-01\"\n"
+                          "text": "Actual:   මට ඔය aba ගෙඩිය දෙන්න.\n"
                         },
                         {
-                          "text": "ℹNegative test - documenting actual behavior\n"
+                          "text": " Negative test - documenting system failure\n"
                         },
                         {
-                          "text": "   System behavior: \"2026-02-01\"\n"
+                          "text": "   System produced incorrect output: \"මට ඔය aba ගෙඩිය දෙන්න.\"\n"
                         },
                         {
-                          "text": "======================================================================\n\n"
+                          "text": "   Expected (correct) output would be: \"මට ඔය අඹ ගෙඩිය දෙන්න.\"\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0001_system_failure.png\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0001_error.png\n"
                         }
                       ],
-                      "stderr": [],
+                      "stderr": [
+                        {
+                          "text": " TEST ERROR: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මට ඔය \u001b[7mඅඹ\u001b[27m ගෙඩිය දෙන්න.\"\u001b[39m\nReceived: \u001b[31m\"මට ඔය \u001b[7maba\u001b[27m ගෙඩිය දෙන්න.\"\u001b[39m\n"
+                        }
+                      ],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:29:40.164Z",
+                      "startTime": "2026-01-31T11:36:43.072Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--06514-ngs-fails-context-detection-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--06514-ngs-fails-context-detection-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--06514-ngs-fails-context-detection-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                        "column": 32,
+                        "line": 257
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
-              "id": "3126a05e19414a51fad5-496b2870c74653608da7",
+              "id": "3126a05e19414a51fad5-9b8bcc05473acd4f317e",
               "file": "singlish-translator.spec.js",
               "line": 161,
               "column": 5
             },
             {
-              "title": "Neg_Fun_0002: Extreme repeating character pattern causing processing failure",
-              "ok": true,
+              "title": "Neg_Fun_0002: Long vowel misinterpretation in casual typing",
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -1945,11 +1995,30 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 7958,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 7432,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අපි පාන් කනවා\"\u001b[39m\nReceived: \u001b[31m\"අපි පාන් ක\u001b[7mා\u001b[27mනවා\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අපි පාන් කනවා\"\u001b[39m\nReceived: \u001b[31m\"අපි පාන් ක\u001b[7mා\u001b[27mනවා\"\u001b[39m\n    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32",
+                        "location": {
+                          "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                          "column": 32,
+                          "line": 257
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                            "column": 32,
+                            "line": 257
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අපි පාන් කනවා\"\u001b[39m\nReceived: \u001b[31m\"අපි පාන් ක\u001b[7mා\u001b[27mනවා\"\u001b[39m\n\n\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n======================================================================\n"
@@ -1958,7 +2027,7 @@
                           "text": "TEST: Neg_Fun_0002\n"
                         },
                         {
-                          "text": "NAME: Extreme repeating character pattern causing processing failure\n"
+                          "text": "NAME: Long vowel misinterpretation in casual typing\n"
                         },
                         {
                           "text": "======================================================================\n"
@@ -1967,51 +2036,82 @@
                           "text": "✓ Cleared input field\n"
                         },
                         {
-                          "text": "✓ Entered input: \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...\"\n"
+                          "text": "✓ Entered input: \"api paan kaanavaa\"\n"
                         },
                         {
-                          "text": "✓ Waited 5000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
-                          "text": "✓ Got output: \"\"\n"
+                          "text": "✓ Got output: \"අපි පාන් කානවා\"\n"
                         },
                         {
                           "text": "\nCOMPARISON:\n"
                         },
                         {
-                          "text": "Expected: 3,000 'අ' characters\n"
+                          "text": "Expected: අපි පාන් කනවා\n"
                         },
                         {
-                          "text": "Actual:   \n"
+                          "text": "Actual:   අපි පාන් කානවා\n"
                         },
                         {
-                          "text": "ℹNegative test - documenting actual behavior\n"
+                          "text": " Negative test - documenting system failure\n"
                         },
                         {
-                          "text": "   System behavior: (empty/no output)\n"
+                          "text": "   System produced incorrect output: \"අපි පාන් කානවා\"\n"
                         },
                         {
-                          "text": "======================================================================\n\n"
+                          "text": "   Expected (correct) output would be: \"අපි පාන් කනවා\"\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0002_system_failure.png\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0002_error.png\n"
                         }
                       ],
-                      "stderr": [],
+                      "stderr": [
+                        {
+                          "text": " TEST ERROR: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අපි පාන් කනවා\"\u001b[39m\nReceived: \u001b[31m\"අපි පාන් ක\u001b[7mා\u001b[27mනවා\"\u001b[39m\n"
+                        }
+                      ],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:29:45.349Z",
+                      "startTime": "2026-01-31T11:36:52.000Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--0fb6a-rpretation-in-casual-typing-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--0fb6a-rpretation-in-casual-typing-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--0fb6a-rpretation-in-casual-typing-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                        "column": 32,
+                        "line": 257
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
-              "id": "3126a05e19414a51fad5-4105d2bceec54445b09b",
+              "id": "3126a05e19414a51fad5-638cbf93d12d35b1208e",
               "file": "singlish-translator.spec.js",
               "line": 161,
               "column": 5
             },
             {
               "title": "Neg_Fun_0003: Excessive whitespace preservation",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -2022,11 +2122,30 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 2,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 5236,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 7255,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අම්මේ, මම හෙට ගෙදර එනවා.\"\u001b[39m\nReceived: \u001b[31m\"අම්මේ, මම\u001b[7m                                         \u001b[27m හෙට ගෙදර එනවා.\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අම්මේ, මම හෙට ගෙදර එනවා.\"\u001b[39m\nReceived: \u001b[31m\"අම්මේ, මම\u001b[7m                                         \u001b[27m හෙට ගෙදර එනවා.\"\u001b[39m\n    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32",
+                        "location": {
+                          "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                          "column": 32,
+                          "line": 257
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                            "column": 32,
+                            "line": 257
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අම්මේ, මම හෙට ගෙදර එනවා.\"\u001b[39m\nReceived: \u001b[31m\"අම්මේ, මම\u001b[7m                                         \u001b[27m හෙට ගෙදර එනවා.\"\u001b[39m\n\n\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n======================================================================\n"
@@ -2047,7 +2166,7 @@
                           "text": "✓ Entered input: \"ammee, mama                                       ...\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"අම්මේ, මම                                         ...\"\n"
@@ -2062,23 +2181,54 @@
                           "text": "Actual:   අම්මේ, මම                                          හෙට ගෙදර එනවා.\n"
                         },
                         {
-                          "text": "ℹNegative test - documenting actual behavior\n"
+                          "text": " Negative test - documenting system failure\n"
                         },
                         {
-                          "text": "   System behavior: අම්මේ, මම                                          හෙට ගෙදර එනවා.\n"
+                          "text": "   System produced incorrect output: \"අම්මේ, මම                                         ...\"\n"
                         },
                         {
-                          "text": "======================================================================\n\n"
+                          "text": "   Expected (correct) output would be: \"අම්මේ, මම හෙට ගෙදර එනවා.\"\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0003_system_failure.png\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0003_error.png\n"
                         }
                       ],
-                      "stderr": [],
+                      "stderr": [
+                        {
+                          "text": " TEST ERROR: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අම්මේ, මම හෙට ගෙදර එනවා.\"\u001b[39m\nReceived: \u001b[31m\"අම්මේ, මම\u001b[7m                                         \u001b[27m හෙට ගෙදර එනවා.\"\u001b[39m\n"
+                        }
+                      ],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:29:53.327Z",
+                      "startTime": "2026-01-31T11:37:01.815Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--98e1b-ive-whitespace-preservation-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--98e1b-ive-whitespace-preservation-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--98e1b-ive-whitespace-preservation-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                        "column": 32,
+                        "line": 257
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "3126a05e19414a51fad5-287a23303ee91ce56137",
@@ -2088,7 +2238,7 @@
             },
             {
               "title": "Neg_Fun_0004: Non-standard slang characters",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -2099,11 +2249,30 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 3,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 5513,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 7174,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අඩෝ මචන්! සුපිරී\u001b[7m ආ…\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"අඩෝ\u001b[7mඕඔ\u001b[27m මචන්! සුපිරී\u001b[7mඊඊඊ A!!!!!!\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අඩෝ මචන්! සුපිරී\u001b[7m ආ…\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"අඩෝ\u001b[7mඕඔ\u001b[27m මචන්! සුපිරී\u001b[7mඊඊඊ A!!!!!!\u001b[27m\"\u001b[39m\n    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32",
+                        "location": {
+                          "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                          "column": 32,
+                          "line": 257
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                            "column": 32,
+                            "line": 257
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අඩෝ මචන්! සුපිරී\u001b[7m ආ…\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"අඩෝ\u001b[7mඕඔ\u001b[27m මචන්! සුපිරී\u001b[7mඊඊඊ A!!!!!!\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n======================================================================\n"
@@ -2124,7 +2293,7 @@
                           "text": "✓ Entered input: \"adooooo machan! supiriiiiiiii A!!!!!!\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"අඩෝඕඔ මචන්! සුපිරීඊඊඊ A!!!!!!\"\n"
@@ -2139,23 +2308,54 @@
                           "text": "Actual:   අඩෝඕඔ මචන්! සුපිරීඊඊඊ A!!!!!!\n"
                         },
                         {
-                          "text": "ℹNegative test - documenting actual behavior\n"
+                          "text": " Negative test - documenting system failure\n"
                         },
                         {
-                          "text": "   System behavior: අඩෝඕඔ මචන්! සුපිරීඊඊඊ A!!!!!!\n"
+                          "text": "   System produced incorrect output: \"අඩෝඕඔ මචන්! සුපිරීඊඊඊ A!!!!!!\"\n"
                         },
                         {
-                          "text": "======================================================================\n\n"
+                          "text": "   Expected (correct) output would be: \"අඩෝ මචන්! සුපිරී ආ…\"\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0004_system_failure.png\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0004_error.png\n"
                         }
                       ],
-                      "stderr": [],
+                      "stderr": [
+                        {
+                          "text": " TEST ERROR: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"අඩෝ මචන්! සුපිරී\u001b[7m ආ…\u001b[27m\"\u001b[39m\nReceived: \u001b[31m\"අඩෝ\u001b[7mඕඔ\u001b[27m මචන්! සුපිරී\u001b[7mඊඊඊ A!!!!!!\u001b[27m\"\u001b[39m\n"
+                        }
+                      ],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:29:58.578Z",
+                      "startTime": "2026-01-31T11:37:11.395Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--fa3ac-n-standard-slang-characters-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--fa3ac-n-standard-slang-characters-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--fa3ac-n-standard-slang-characters-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                        "column": 32,
+                        "line": 257
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "3126a05e19414a51fad5-4f14d4b298f21436b1c9",
@@ -2165,7 +2365,7 @@
             },
             {
               "title": "Neg_Fun_0005: Stress test: Missing spaces + Non-standard slang characters",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -2176,11 +2376,30 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 4,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 10249,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 7125,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"හෙට\u001b[7m එ\u001b[27mනවද ITPM \u001b[7mle\u001b[27mc එකට\"\u001b[39m\nReceived: \u001b[31m\"හෙට\u001b[7mැ\u001b[27mනවද ITPM \u001b[7mලෙ\u001b[27mc එකට\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"හෙට\u001b[7m එ\u001b[27mනවද ITPM \u001b[7mle\u001b[27mc එකට\"\u001b[39m\nReceived: \u001b[31m\"හෙට\u001b[7mැ\u001b[27mනවද ITPM \u001b[7mලෙ\u001b[27mc එකට\"\u001b[39m\n    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32",
+                        "location": {
+                          "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                          "column": 32,
+                          "line": 257
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                            "column": 32,
+                            "line": 257
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"හෙට\u001b[7m එ\u001b[27mනවද ITPM \u001b[7mle\u001b[27mc එකට\"\u001b[39m\nReceived: \u001b[31m\"හෙට\u001b[7mැ\u001b[27mනවද ITPM \u001b[7mලෙ\u001b[27mc එකට\"\u001b[39m\n\n\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n======================================================================\n"
@@ -2201,7 +2420,7 @@
                           "text": "✓ Entered input: \"hetaenavadha ITPM lec ekata\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"හෙටැනවද ITPM ලෙc එකට\"\n"
@@ -2216,23 +2435,54 @@
                           "text": "Actual:   හෙටැනවද ITPM ලෙc එකට\n"
                         },
                         {
-                          "text": "ℹNegative test - documenting actual behavior\n"
+                          "text": " Negative test - documenting system failure\n"
                         },
                         {
-                          "text": "   System behavior: හෙටැනවද ITPM ලෙc එකට\n"
+                          "text": "   System produced incorrect output: \"හෙටැනවද ITPM ලෙc එකට\"\n"
                         },
                         {
-                          "text": "======================================================================\n\n"
+                          "text": "   Expected (correct) output would be: \"හෙට එනවද ITPM lec එකට\"\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0005_system_failure.png\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0005_error.png\n"
                         }
                       ],
-                      "stderr": [],
+                      "stderr": [
+                        {
+                          "text": " TEST ERROR: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"හෙට\u001b[7m එ\u001b[27mනවද ITPM \u001b[7mle\u001b[27mc එකට\"\u001b[39m\nReceived: \u001b[31m\"හෙට\u001b[7mැ\u001b[27mනවද ITPM \u001b[7mලෙ\u001b[27mc එකට\"\u001b[39m\n"
+                        }
+                      ],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:30:04.105Z",
+                      "startTime": "2026-01-31T11:37:20.844Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--4398d-n-standard-slang-characters-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--4398d-n-standard-slang-characters-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--4398d-n-standard-slang-characters-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                        "column": 32,
+                        "line": 257
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "3126a05e19414a51fad5-67133eccb418caf5e5ab",
@@ -2242,7 +2492,7 @@
             },
             {
               "title": "Neg_Fun_0006: Handling invalid phonetic typos",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -2253,11 +2503,30 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 5,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 6746,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 7619,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mමම\u001b[27m ගෙදර\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mmamma\u001b[27m ගෙදර\u001b[7m්‍ර\u001b[27m\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mමම\u001b[27m ගෙදර\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mmamma\u001b[27m ගෙදර\u001b[7m්‍ර\u001b[27m\"\u001b[39m\n    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32",
+                        "location": {
+                          "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                          "column": 32,
+                          "line": 257
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                            "column": 32,
+                            "line": 257
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mමම\u001b[27m ගෙදර\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mmamma\u001b[27m ගෙදර\u001b[7m්‍ර\u001b[27m\"\u001b[39m\n\n\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n======================================================================\n"
@@ -2278,7 +2547,7 @@
                           "text": "✓ Entered input: \"mamma gedharra\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"mamma ගෙදර්‍ර\"\n"
@@ -2293,23 +2562,54 @@
                           "text": "Actual:   mamma ගෙදර්‍ර\n"
                         },
                         {
-                          "text": "ℹNegative test - documenting actual behavior\n"
+                          "text": " Negative test - documenting system failure\n"
                         },
                         {
-                          "text": "   System behavior: mamma ගෙදර්‍ර\n"
+                          "text": "   System produced incorrect output: \"mamma ගෙදර්‍ර\"\n"
                         },
                         {
-                          "text": "======================================================================\n\n"
+                          "text": "   Expected (correct) output would be: \"මම ගෙදර\"\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0006_system_failure.png\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0006_error.png\n"
                         }
                       ],
-                      "stderr": [],
+                      "stderr": [
+                        {
+                          "text": " TEST ERROR: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mමම\u001b[27m ගෙදර\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mmamma\u001b[27m ගෙදර\u001b[7m්‍ර\u001b[27m\"\u001b[39m\n"
+                        }
+                      ],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:30:14.364Z",
+                      "startTime": "2026-01-31T11:37:30.399Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--9609a-ling-invalid-phonetic-typos-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--9609a-ling-invalid-phonetic-typos-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--9609a-ling-invalid-phonetic-typos-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                        "column": 32,
+                        "line": 257
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "3126a05e19414a51fad5-bebd588c3867f42ec390",
@@ -2319,7 +2619,7 @@
             },
             {
               "title": "Neg_Fun_0007: English abbreviation phoneticizing",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -2330,11 +2630,30 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 6,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 5347,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 13039,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mni\u001b[27mc එක student \u001b[7mid\u001b[27m එක් ඕන කිව්වා.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mනි\u001b[27mc එක student \u001b[7mඉඩ්\u001b[27m එක් ඕන කිව්වා.\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mni\u001b[27mc එක student \u001b[7mid\u001b[27m එක් ඕන කිව්වා.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mනි\u001b[27mc එක student \u001b[7mඉඩ්\u001b[27m එක් ඕන කිව්වා.\"\u001b[39m\n    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32",
+                        "location": {
+                          "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                          "column": 32,
+                          "line": 257
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                            "column": 32,
+                            "line": 257
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mni\u001b[27mc එක student \u001b[7mid\u001b[27m එක් ඕන කිව්වා.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mනි\u001b[27mc එක student \u001b[7mඉඩ්\u001b[27m එක් ඕන කිව්වා.\"\u001b[39m\n\n\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n======================================================================\n"
@@ -2355,7 +2674,7 @@
                           "text": "✓ Entered input: \"nic eka student id ek oona kivvaa.\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"නිc එක student ඉඩ් එක් ඕන කිව්වා.\"\n"
@@ -2370,23 +2689,54 @@
                           "text": "Actual:   නිc එක student ඉඩ් එක් ඕන කිව්වා.\n"
                         },
                         {
-                          "text": "ℹNegative test - documenting actual behavior\n"
+                          "text": " Negative test - documenting system failure\n"
                         },
                         {
-                          "text": "   System behavior: නිc එක student ඉඩ් එක් ඕන කිව්වා.\n"
+                          "text": "   System produced incorrect output: \"නිc එක student ඉඩ් එක් ඕන කිව්වා.\"\n"
                         },
                         {
-                          "text": "======================================================================\n\n"
+                          "text": "   Expected (correct) output would be: \"nic එක student id එක් ඕන කිව්වා.\"\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0007_system_failure.png\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0007_error.png\n"
                         }
                       ],
-                      "stderr": [],
+                      "stderr": [
+                        {
+                          "text": " TEST ERROR: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"\u001b[7mni\u001b[27mc එක student \u001b[7mid\u001b[27m එක් ඕන කිව්වා.\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mනි\u001b[27mc එක student \u001b[7mඉඩ්\u001b[27m එක් ඕන කිව්වා.\"\u001b[39m\n"
+                        }
+                      ],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:30:21.124Z",
+                      "startTime": "2026-01-31T11:37:40.841Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--0f62f--abbreviation-phoneticizing-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--0f62f--abbreviation-phoneticizing-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--0f62f--abbreviation-phoneticizing-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                        "column": 32,
+                        "line": 257
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "3126a05e19414a51fad5-846545c6f491ff13aa9c",
@@ -2396,7 +2746,7 @@
             },
             {
               "title": "Neg_Fun_0008: Mathematical Expression Failure",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -2407,11 +2757,30 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 7,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 5329,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 12573,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \\\" \u001b[7msin\u001b[27m(x)+ \u001b[7msin(y\u001b[27m) = 15, \u001b[7m y\u001b[27m >= 10 \\\"\"\u001b[39m\nReceived: \u001b[31m\"මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \\\" \u001b[7mසින්\u001b[27m(x)+ \u001b[7mසින්(ය්\u001b[27m) = 15, \u001b[7mය්\u001b[27m >= 10 \\\"\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \\\" \u001b[7msin\u001b[27m(x)+ \u001b[7msin(y\u001b[27m) = 15, \u001b[7m y\u001b[27m >= 10 \\\"\"\u001b[39m\nReceived: \u001b[31m\"මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \\\" \u001b[7mසින්\u001b[27m(x)+ \u001b[7mසින්(ය්\u001b[27m) = 15, \u001b[7mය්\u001b[27m >= 10 \\\"\"\u001b[39m\n    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32",
+                        "location": {
+                          "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                          "column": 32,
+                          "line": 257
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                            "column": 32,
+                            "line": 257
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \\\" \u001b[7msin\u001b[27m(x)+ \u001b[7msin(y\u001b[27m) = 15, \u001b[7m y\u001b[27m >= 10 \\\"\"\u001b[39m\nReceived: \u001b[31m\"මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \\\" \u001b[7mසින්\u001b[27m(x)+ \u001b[7mසින්(ය්\u001b[27m) = 15, \u001b[7mය්\u001b[27m >= 10 \\\"\"\u001b[39m\n\n\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n======================================================================\n"
@@ -2429,41 +2798,72 @@
                           "text": "✓ Cleared input field\n"
                         },
                         {
-                          "text": "✓ Entered input: \"sin(x)+ sin(y) = 15,  y >= 10\"\n"
+                          "text": "✓ Entered input: \"mee samiikaraNayen oyagee vaedee kara ganna puluva...\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
-                          "text": "✓ Got output: \"සින්(x)+ සින්(ය්) = 15,  ය් >= 10\"\n"
+                          "text": "✓ Got output: \"මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \" සින්(x)+...\"\n"
                         },
                         {
                           "text": "\nCOMPARISON:\n"
                         },
                         {
-                          "text": "Expected: sin(x)+ sin(y) = 15,  y >= 10\n"
+                          "text": "Expected: මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \" sin(x)+ sin(y) = 15,  y >= 10 \"\n"
                         },
                         {
-                          "text": "Actual:   සින්(x)+ සින්(ය්) = 15,  ය් >= 10\n"
+                          "text": "Actual:   මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \" සින්(x)+ සින්(ය්) = 15, ය් >= 10 \"\n"
                         },
                         {
-                          "text": "ℹNegative test - documenting actual behavior\n"
+                          "text": " Negative test - documenting system failure\n"
                         },
                         {
-                          "text": "   System behavior: සින්(x)+ සින්(ය්) = 15,  ය් >= 10\n"
+                          "text": "   System produced incorrect output: \"මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \" සින්(x)+...\"\n"
                         },
                         {
-                          "text": "======================================================================\n\n"
+                          "text": "   Expected (correct) output would be: \"මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \" sin(x)+ ...\"\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0008_system_failure.png\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0008_error.png\n"
                         }
                       ],
-                      "stderr": [],
+                      "stderr": [
+                        {
+                          "text": " TEST ERROR: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \\\" \u001b[7msin\u001b[27m(x)+ \u001b[7msin(y\u001b[27m) = 15, \u001b[7m y\u001b[27m >= 10 \\\"\"\u001b[39m\nReceived: \u001b[31m\"මේ සමීකරණයෙන් ඔයගේ වැඩේ කර ගන්න පුලුවන් \\\" \u001b[7mසින්\u001b[27m(x)+ \u001b[7mසින්(ය්\u001b[27m) = 15, \u001b[7mය්\u001b[27m >= 10 \\\"\"\u001b[39m\n"
+                        }
+                      ],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:30:26.487Z",
+                      "startTime": "2026-01-31T11:37:56.826Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--b6011-ematical-Expression-Failure-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--b6011-ematical-Expression-Failure-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--b6011-ematical-Expression-Failure-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                        "column": 32,
+                        "line": 257
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "3126a05e19414a51fad5-52931d5e2f38005c56fe",
@@ -2473,7 +2873,7 @@
             },
             {
               "title": "Neg_Fun_0009: URL/Email Corruption",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -2484,11 +2884,30 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 8,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 4882,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 12267,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මෙ Link එකෙන් Log වෙන්න.' https://courseweb.sliit.lk '\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මෙ Link එකෙන් Log වෙන්න.' https://courseweb.sliit.lk '\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\n    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32",
+                        "location": {
+                          "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                          "column": 32,
+                          "line": 257
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                            "column": 32,
+                            "line": 257
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මෙ Link එකෙන් Log වෙන්න.' https://courseweb.sliit.lk '\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\n\n\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n======================================================================\n"
@@ -2506,41 +2925,72 @@
                           "text": "✓ Cleared input field\n"
                         },
                         {
-                          "text": "✓ Entered input: \"https://courseweb.sliit.lk '\"\n"
+                          "text": "✓ Entered input: \"me Link eken Log wenna. ' https://courseweb.sliit....\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
-                          "text": "✓ Got output: \"හ්ට්ට්ප්ස්://cඔඋර්සෙwඑබ්.ස්ලීට්.ල්ක් '\"\n"
+                          "text": "✓ Got output: \"\"\n"
                         },
                         {
                           "text": "\nCOMPARISON:\n"
                         },
                         {
-                          "text": "Expected: https://courseweb.sliit.lk '\n"
+                          "text": "Expected: මෙ Link එකෙන් Log වෙන්න.' https://courseweb.sliit.lk '\n"
                         },
                         {
-                          "text": "Actual:   හ්ට්ට්ප්ස්://cඔඋර්සෙwඑබ්.ස්ලීට්.ල්ක් '\n"
+                          "text": "Actual:   \n"
                         },
                         {
-                          "text": "ℹNegative test - documenting actual behavior\n"
+                          "text": " Negative test - documenting system failure\n"
                         },
                         {
-                          "text": "   System behavior: හ්ට්ට්ප්ස්://cඔඋර්සෙwඑබ්.ස්ලීට්.ල්ක් '\n"
+                          "text": "   System produced incorrect output: \"\"\n"
                         },
                         {
-                          "text": "======================================================================\n\n"
+                          "text": "   Expected (correct) output would be: \"මෙ Link එකෙන් Log වෙන්න.' https://courseweb.sliit....\"\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0009_system_failure.png\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0009_error.png\n"
                         }
                       ],
-                      "stderr": [],
+                      "stderr": [
+                        {
+                          "text": " TEST ERROR: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මෙ Link එකෙන් Log වෙන්න.' https://courseweb.sliit.lk '\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\n"
+                        }
+                      ],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:30:31.831Z",
+                      "startTime": "2026-01-31T11:38:11.699Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--24671-n-0009-URL-Email-Corruption-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--24671-n-0009-URL-Email-Corruption-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--24671-n-0009-URL-Email-Corruption-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                        "column": 32,
+                        "line": 257
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "3126a05e19414a51fad5-e951ff0e50671eaa0ff6",
@@ -2550,7 +3000,7 @@
             },
             {
               "title": "Neg_Fun_0010: Hashtag and Social Media Format + Special Character Keyboard Shortcuts",
-              "ok": true,
+              "ok": false,
               "tags": [],
               "tests": [
                 {
@@ -2561,11 +3011,30 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 9,
                       "parallelIndex": 0,
-                      "status": "passed",
-                      "duration": 5347,
-                      "errors": [],
+                      "status": "failed",
+                      "duration": 13967,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මේ command ටික Save කරල තියාගන්න. (C\u001b[7mtrl+C, Ctrl+X, #sliit, @SLIITofficial, #real\u001b[27m)\"\u001b[39m\nReceived: \u001b[31m\"මේ command ටික Save කරල තියාගන්න. (C\u001b[7mට්‍රල්+C, Cට්‍රල්+X, #ස්ලීට්, @ස්ළීඨොෆ්ෆිcඉඅල්, #රේල්\u001b[27m)\"\u001b[39m",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මේ command ටික Save කරල තියාගන්න. (C\u001b[7mtrl+C, Ctrl+X, #sliit, @SLIITofficial, #real\u001b[27m)\"\u001b[39m\nReceived: \u001b[31m\"මේ command ටික Save කරල තියාගන්න. (C\u001b[7mට්‍රල්+C, Cට්‍රල්+X, #ස්ලීට්, @ස්ළීඨොෆ්ෆිcඉඅල්, #රේල්\u001b[27m)\"\u001b[39m\n    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32",
+                        "location": {
+                          "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                          "column": 32,
+                          "line": 257
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                            "column": 32,
+                            "line": 257
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මේ command ටික Save කරල තියාගන්න. (C\u001b[7mtrl+C, Ctrl+X, #sliit, @SLIITofficial, #real\u001b[27m)\"\u001b[39m\nReceived: \u001b[31m\"මේ command ටික Save කරල තියාගන්න. (C\u001b[7mට්‍රල්+C, Cට්‍රල්+X, #ස්ලීට්, @ස්ළීඨොෆ්ෆිcඉඅල්, #රේල්\u001b[27m)\"\u001b[39m\n\n\u001b[0m \u001b[90m 255 |\u001b[39m           \n \u001b[90m 256 |\u001b[39m           \n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 257 |\u001b[39m           expect(actualOutput)\u001b[33m.\u001b[39mtoBe(expectedOutput)\u001b[33m;\u001b[39m\n \u001b[90m     |\u001b[39m                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 258 |\u001b[39m           \n \u001b[90m 259 |\u001b[39m         } \u001b[36melse\u001b[39m \u001b[36mif\u001b[39m (isNegative \u001b[33m&&\u001b[39m isUI) {\n \u001b[90m 260 |\u001b[39m           \u001b[90m// NEGATIVE UI TESTS - Document problematic UI behavior\u001b[39m\u001b[0m\n\u001b[2m    at D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js:257:32\u001b[22m"
+                        }
+                      ],
                       "stdout": [
                         {
                           "text": "\n======================================================================\n"
@@ -2583,41 +3052,72 @@
                           "text": "✓ Cleared input field\n"
                         },
                         {
-                          "text": "✓ Entered input: \"Ctrl+C, Ctrl+X, #sliit, @SLIITofficial, #real\"\n"
+                          "text": "✓ Entered input: \"mee command tika Save karala thiyaaganna. (Ctrl+C,...\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
-                          "text": "✓ Got output: \"Cට්‍රල්+C, Cට්‍රල්+X, #ස්ලීට්, @ස්ළීඨොෆ්ෆිcඉඅල්, #...\"\n"
+                          "text": "✓ Got output: \"මේ command ටික Save කරල තියාගන්න. (Cට්‍රල්+C, Cට්‍...\"\n"
                         },
                         {
                           "text": "\nCOMPARISON:\n"
                         },
                         {
-                          "text": "Expected: Ctrl+C, Ctrl+X, #sliit, @SLIITofficial, #real\n"
+                          "text": "Expected: මේ command ටික Save කරල තියාගන්න. (Ctrl+C, Ctrl+X, #sliit, @SLIITofficial, #real)\n"
                         },
                         {
-                          "text": "Actual:   Cට්‍රල්+C, Cට්‍රල්+X, #ස්ලීට්, @ස්ළීඨොෆ්ෆිcඉඅල්, #රේල්\n"
+                          "text": "Actual:   මේ command ටික Save කරල තියාගන්න. (Cට්‍රල්+C, Cට්‍රල්+X, #ස්ලීට්, @ස්ළීඨොෆ්ෆිcඉඅල්, #රේල්)\n"
                         },
                         {
-                          "text": "ℹNegative test - documenting actual behavior\n"
+                          "text": " Negative test - documenting system failure\n"
                         },
                         {
-                          "text": "   System behavior: Cට්‍රල්+C, Cට්‍රල්+X, #ස්ලීට්, @ස්ළීඨොෆ්ෆිcඉඅල්, #රේල්\n"
+                          "text": "   System produced incorrect output: \"මේ command ටික Save කරල තියාගන්න. (Cට්‍රල්+C, Cට්‍...\"\n"
                         },
                         {
-                          "text": "======================================================================\n\n"
+                          "text": "   Expected (correct) output would be: \"මේ command ටික Save කරල තියාගන්න. (Ctrl+C, Ctrl+X,...\"\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0010_system_failure.png\n"
+                        },
+                        {
+                          "text": " Screenshot saved: test-results/screenshots/Neg_Fun_0010_error.png\n"
                         }
                       ],
-                      "stderr": [],
+                      "stderr": [
+                        {
+                          "text": " TEST ERROR: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m\"මේ command ටික Save කරල තියාගන්න. (C\u001b[7mtrl+C, Ctrl+X, #sliit, @SLIITofficial, #real\u001b[27m)\"\u001b[39m\nReceived: \u001b[31m\"මේ command ටික Save කරල තියාගන්න. (C\u001b[7mට්‍රල්+C, Cට්‍රල්+X, #ස්ලීට්, @ස්ළීඨොෆ්ෆිcඉඅල්, #රේල්\u001b[27m)\"\u001b[39m\n"
+                        }
+                      ],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:30:36.727Z",
+                      "startTime": "2026-01-31T11:38:26.345Z",
                       "annotations": [],
-                      "attachments": []
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--4f1de-haracter-Keyboard-Shortcuts-chromium\\test-failed-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--4f1de-haracter-Keyboard-Shortcuts-chromium\\video.webm"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\test-results\\singlish-translator-Swift--4f1de-haracter-Keyboard-Shortcuts-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "D:\\Y3S1\\ITPM(IT3040)\\01\\Assigement 01\\IT23814288\\IT23814288-ITPM(IT3040)\\tests\\singlish-translator.spec.js",
+                        "column": 32,
+                        "line": 257
+                      }
                     }
                   ],
-                  "status": "expected"
+                  "status": "unexpected"
                 }
               ],
               "id": "3126a05e19414a51fad5-6d138a8d73886e3bf5d7",
@@ -2638,10 +3138,10 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 10,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 5045,
+                      "duration": 12563,
                       "errors": [],
                       "stdout": [
                         {
@@ -2663,7 +3163,7 @@
                           "text": "✓ Entered input: \"Adha DS practical Lab session ekedhi apita submiss...\"\n"
                         },
                         {
-                          "text": "✓ Waited 2000ms for translation\n"
+                          "text": "✓ Waited 4000ms for translation\n"
                         },
                         {
                           "text": "✓ Got output: \"අද DS practical Lab session එකෙදි අපිට submission ...\"\n"
@@ -2678,7 +3178,7 @@
                           "text": "Actual:   අද DS practical Lab session එකෙදි අපිට submission එකක් තිබුනා.\n"
                         },
                         {
-                          "text": "ℹNegative test - documenting actual behavior\n"
+                          "text": "ℹ Other test type - documenting behavior\n"
                         },
                         {
                           "text": "   System behavior: අද DS practical Lab session එකෙදි අපිට submission එකක් තිබුනා.\n"
@@ -2689,7 +3189,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-30T02:30:42.087Z",
+                      "startTime": "2026-01-31T11:38:42.646Z",
                       "annotations": [],
                       "attachments": []
                     }
@@ -2709,11 +3209,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-30T02:27:29.083Z",
-    "duration": 198438.066,
-    "expected": 35,
+    "startTime": "2026-01-31T11:33:51.948Z",
+    "duration": 303913.143,
+    "expected": 25,
     "skipped": 0,
-    "unexpected": 0,
+    "unexpected": 10,
     "flaky": 0
   }
 }
